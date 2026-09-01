@@ -1,0 +1,5 @@
+# Add the cyberpunk clock to the web browser plugin roster (dsh.client row).
+
+- insert:
+    - id: cyberpunk-clock
+      name: 'dsh-plugin-cyberpunk-clock'

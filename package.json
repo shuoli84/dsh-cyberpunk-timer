@@ -1,0 +1,41 @@
+{
+  "name": "dsh-plugin-cyberpunk-clock",
+  "version": "0.2.0",
+  "description": "A draggable cyberpunk-style 24-hour digital clock with local, editable time reminders for the DeepSeek Harness Web surface.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "clock",
+    "cyberpunk"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
