@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-cyberpunk-clock",
-  "version": "0.3.1",
-  "description": "A draggable cyberpunk-style 24-hour clock with editable local reminders and a full-width approaching-reminder marquee for DeepSeek Harness Web.",
+  "version": "0.4.0",
+  "description": "A draggable cyberpunk-style 24-hour clock with editable local reminders, next-event countdown, and approaching-reminder marquee for DeepSeek Harness Web.",
   "keywords": [
     "deepseek-harness",
     "dsh",
